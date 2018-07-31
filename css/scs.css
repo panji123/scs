@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 12:57:58 AM
+    Author     : panas
+*/
+
+#header{
+    
+    padding-top: 5px;
+    background: #ffcfcb;
+    /* */
+    background: url("../gambar/bunga2.png") no-repeat,url("../gambar/bunga3.png") repeat-x,url("../gambar/bunga2-bawah.png");
+    /*background-color: #fec8c2;*/
+    color:rgb(163,73,164);
+    font-weight: 600
+}
+#footer{
+ 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: url("../gambar/bunga3.png") repeat-x ,url("../gambar/bunga2-bawah.png");
+    /*background-color: #fec8c2;*/
+    color:rgb(163,73,164);
+    font-weight: 600
+   
+}
+
+#navigasi .row .col-md{
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    padding-top: 16px;
+    cursor: pointer;
+    padding-bottom: 16px;
+    
+    border-top: solid 2px white;
+    
+}
+#navigasi .row .col-md:hover{
+    background-color: white;
+    
+}
+ @media (min-width: 768px) { 
+     #menu{
+ display: none;           
+     }
+     
+ }   
+ @media (max-width: 768px) { 
+     .dropdown-menu{
+         width: 100%;
+     }
+     #navigasi{
+        
+     }
+ }
+ 
+#menu{
+    width: 100%;
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    padding-top: 16px;
+    cursor: pointer;
+    padding-bottom: 16px;
+    
+    border-top: solid 2px white;
+}
+.dropdown-menu{
+    
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: pink;
+    
+    
+}
+.dropdown-item{
+    color:rgb(163,73,164);
+    padding: 10px;
+    
+    border-bottom: solid thin pink;
+    font-weight: 550;
+    text-align: center;
+}
+
+#header div a{
+    color:rgb(163,73,164);
+}
+
+
+
